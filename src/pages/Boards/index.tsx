@@ -1,6 +1,10 @@
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+
 const Boards = () => {
   return (
-	<div>Boards</div>
+	<DragDropContext onDragEnd={(result:any) => console.log(result)}>
+		<div className="w-full flex items-start justify-between px-5 pb-8 md:gap-0 gap-10"></div>
+	</DragDropContext>
   )
 }
 
