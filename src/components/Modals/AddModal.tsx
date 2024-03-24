@@ -72,7 +72,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 
 	return (
 		<div
-			className={`w-screen h-screen place-items-center fixed top-0 left-0 ${
+			className={`w-full h-full place-items-center fixed top-0 left-0 ${
 				isOpen ? "grid" : "hidden"
 			}`}
 		>
